@@ -1,0 +1,18 @@
+.mainTitle {
+	color: $grey-mid;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+	.mainTitle {
+		font-size: 28px;
+	}
+}
+
+@media (max-width: 455px) {
+	.mainTitle {
+		font-size: 24px;
+		margin-bottom: 20px;
+	}
+}

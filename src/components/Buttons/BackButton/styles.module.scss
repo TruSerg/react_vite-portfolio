@@ -1,0 +1,14 @@
+.button {
+	transition: all 0.3s ease-in-out;
+
+	&Icon {
+		font-size: 20px;
+		color: $grey-mid;
+    transition: all 0.3s ease-in-out;
+	}
+
+	&:hover &Icon {
+    
+		color: $blue;
+	}
+}

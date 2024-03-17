@@ -1,0 +1,172 @@
+.main {
+	padding: 30px 30px;
+
+	&Top {
+		display: flex;
+		align-items: center;
+		margin-bottom: 30px;
+
+		h1 {
+			margin-bottom: 0;
+		}
+	}
+
+	&Flex {
+		display: flex;
+		gap: 30px;
+
+		&Left {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 30px;
+			min-height: 700px;
+			background-color: $image-bg;
+			width: 40%;
+
+			&Img {
+				min-height: 600px;
+				object-fit: cover;
+				-webkit-box-shadow: 21px 21px 25px -3px $image-shadow;
+				-moz-box-shadow: 21px 21px 25px -3px $image-shadow;
+				box-shadow: 21px 21px 25px -3px $image-shadow;
+			}
+		}
+
+		&Right {
+			display: flex;
+			flex-direction: column;
+			width: 60%;
+			padding: 30px 0 30px 0;
+			flex-grow: 5;
+
+			&Skills {
+				margin-bottom: 20px;
+
+				&Text {
+					display: inline-block;
+					font-weight: 600;
+					text-decoration: underline;
+					font-size: 16px;
+					color: $grey-light;
+				}
+
+				&Text:not(:last-child):after {
+					content: ',' !important;
+					margin-right: 5px;
+				}
+			}
+
+			&Description {
+				font-size: 18px;
+				font-weight: 600;
+				color: $primary;
+				padding: 20px;
+				border: 1px solid $grey-super-light;
+				margin-bottom: 20px;
+			}
+
+			&Rate {
+				margin-bottom: 20px;
+			}
+		}
+	}
+}
+
+@media (max-width: 1180px) {
+	.main {
+		&Flex {
+			&Left {
+				&Img {
+					min-height: 450px;
+				}
+			}
+
+			&Right {
+				padding: 0;
+
+				&Title {
+					font-size: 22px;
+					margin-bottom: 15px;
+				}
+
+				&Skills {
+					margin-bottom: 10px;
+				}
+
+				&Description {
+					font-size: 16px;
+					padding: 15px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 960px) {
+	.main {
+		&Flex {
+			flex-direction: column;
+
+			&Left {
+				min-height: 400px;
+				width: 100%;
+
+				&Img {
+					min-height: 300px;
+				}
+			}
+
+			&Right {
+				width: 100%;
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.main {
+		&Flex {
+			&Left {
+				min-height: 300px;
+
+				&Img {
+					min-height: 200px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 445px) {
+	.main {
+		padding: 0 0 20px 0;
+
+		&Flex {
+			gap: 20px;
+
+			&Left {
+				padding: 20px;
+				min-height: 250px;
+			}
+
+			&Right {
+				&Title {
+					font-size: 18px;
+					margin-bottom: 10px;
+				}
+
+				&Skills {
+					font-size: 16;
+					margin-bottom: 10px;
+				}
+
+				&Description {
+					font-size: 15px;
+					padding: 0;
+					border: none;
+				}
+			}
+		}
+	}
+}

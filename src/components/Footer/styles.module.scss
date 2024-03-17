@@ -1,0 +1,10 @@
+.footer {
+	padding: 30px 30px;
+	background-color: $footer-bg;
+	color: $primary;
+	margin-top: auto;
+
+	&Text {
+		text-align: center;
+	}
+}

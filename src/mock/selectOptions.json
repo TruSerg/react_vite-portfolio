@@ -1,0 +1,10 @@
+[
+	{
+		"value": "appsList.json",
+		"label": "Apps"
+	},
+	{
+		"value": "layoutsList.json",
+		"label": "Layouts"
+	}
+]

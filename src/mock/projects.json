@@ -1,0 +1,175 @@
+{
+	"appsList": [
+		{
+			"id": 1,
+			"image": "/img/dummy-store.jpg",
+			"title": "Online store",
+			"link": "https://dummy-react-redux-typescript-store.vercel.app",
+			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos pariatur eius est molestiae voluptas, inventore enim tempora cupiditate sint quam vero, incidunt illum maxime quibusdam eveniet sit odio ut officia facilis rem quia possimus. Vel iste fuga molestiae reprehenderit consectetur ratione, accusantium illo ex aliquam dolores debitis doloremque incidunt molestias autem! At eius fugit et hic nisi natus odit, nihil autem aliquid obcaecati impedit, quasi, totam quidem architecto distinctio quisquam veniam? Totam quibusdam veritatis eos veniam consequuntur, molestiae beatae mollitia, molestias quidem odit deserunt dolorem? Odio quis non exercitationem eaque voluptate. Enim, delectus? Minima, deleniti velit quo totam molestiae cum?",
+			"rate": 5,
+			"skills": ["React", "Typescript", "Redux-toolkit", "Material-Ui", "Scss"]
+		},
+		{
+			"id": 2,
+			"image": "/img/google-library.jpg",
+			"title": "Google library",
+			"link": "https://next-typescript-online-library.vercel.app",
+			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos pariatur eius est molestiae voluptas, inventore enim tempora cupiditate sint quam vero, incidunt illum maxime quibusdam eveniet sit odio ut officia facilis rem quia possimus. Vel iste fuga molestiae reprehenderit consectetur ratione, accusantium illo ex aliquam dolores debitis doloremque incidunt molestias autem! At eius fugit et hic nisi natus odit, nihil autem aliquid obcaecati impedit, quasi, totam quidem architecto distinctio quisquam veniam? Totam quibusdam veritatis eos veniam consequuntur, molestiae beatae mollitia, molestias quidem odit deserunt dolorem? Odio quis non exercitationem eaque voluptate. Enim, delectus? Minima, deleniti velit quo totam molestiae cum?",
+			"rate": 5,
+			"skills": [
+				"Next",
+				"Typescript",
+				"Rtk-query",
+				"Redux-toolkit",
+				"Material-Ui",
+				"Scss"
+			]
+		},
+		{
+			"id": 3,
+			"image": "/img/react-weather.jpg",
+			"title": "Open weather",
+			"link": "https://react-redux-weather.vercel.app",
+			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos pariatur eius est molestiae voluptas, inventore enim tempora cupiditate sint quam vero, incidunt illum maxime quibusdam eveniet sit odio ut officia facilis rem quia possimus. Vel iste fuga molestiae reprehenderit consectetur ratione, accusantium illo ex aliquam dolores debitis doloremque incidunt molestias autem! At eius fugit et hic nisi natus odit, nihil autem aliquid obcaecati impedit, quasi, totam quidem architecto distinctio quisquam veniam? Totam quibusdam veritatis eos veniam consequuntur, molestiae beatae mollitia, molestias quidem odit deserunt dolorem? Odio quis non exercitationem eaque voluptate. Enim, delectus? Minima, deleniti velit quo totam molestiae cum?",
+			"rate": 4.5,
+			"skills": ["React", "Redux-toolkit", "Material-Ui", "Scss"]
+		},
+		{
+			"id": 4,
+			"image": "/img/github-users.jpg",
+			"title": "Github users",
+			"link": "https://redux-github-users.vercel.app",
+			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos pariatur eius est molestiae voluptas, inventore enim tempora cupiditate sint quam vero, incidunt illum maxime quibusdam eveniet sit odio ut officia facilis rem quia possimus. Vel iste fuga molestiae reprehenderit consectetur ratione, accusantium illo ex aliquam dolores debitis doloremque incidunt molestias autem! At eius fugit et hic nisi natus odit, nihil autem aliquid obcaecati impedit, quasi, totam quidem architecto distinctio quisquam veniam? Totam quibusdam veritatis eos veniam consequuntur, molestiae beatae mollitia, molestias quidem odit deserunt dolorem? Odio quis non exercitationem eaque voluptate. Enim, delectus? Minima, deleniti velit quo totam molestiae cum?",
+			"rate": 4.5,
+			"skills": ["React", "Redux-toolkit", "Scss"]
+		},
+		{
+			"id": 5,
+			"image": "/img/react-store.jpg",
+			"title": "Online store",
+			"link": "https://react-redux-store-jet.vercel.app",
+			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos pariatur eius est molestiae voluptas, inventore enim tempora cupiditate sint quam vero, incidunt illum maxime quibusdam eveniet sit odio ut officia facilis rem quia possimus. Vel iste fuga molestiae reprehenderit consectetur ratione, accusantium illo ex aliquam dolores debitis doloremque incidunt molestias autem! At eius fugit et hic nisi natus odit, nihil autem aliquid obcaecati impedit, quasi, totam quidem architecto distinctio quisquam veniam? Totam quibusdam veritatis eos veniam consequuntur, molestiae beatae mollitia, molestias quidem odit deserunt dolorem? Odio quis non exercitationem eaque voluptate. Enim, delectus? Minima, deleniti velit quo totam molestiae cum?",
+			"rate": 4,
+			"skills": ["React", "Redux-toolkit", "Material-Ui", "Scss"]
+		},
+		{
+			"id": 6,
+			"image": "/img/todo-list.jpg",
+			"title": "Todo list",
+			"link": "https://react-redux-typescript-todo-list.vercel.app",
+			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos pariatur eius est molestiae voluptas, inventore enim tempora cupiditate sint quam vero, incidunt illum maxime quibusdam eveniet sit odio ut officia facilis rem quia possimus. Vel iste fuga molestiae reprehenderit consectetur ratione, accusantium illo ex aliquam dolores debitis doloremque incidunt molestias autem! At eius fugit et hic nisi natus odit, nihil autem aliquid obcaecati impedit, quasi, totam quidem architecto distinctio quisquam veniam? Totam quibusdam veritatis eos veniam consequuntur, molestiae beatae mollitia, molestias quidem odit deserunt dolorem? Odio quis non exercitationem eaque voluptate. Enim, delectus? Minima, deleniti velit quo totam molestiae cum?",
+			"rate": 4.5,
+			"skills": ["React", "Typescript", "Redux-toolkit", "Material-Ui", "Scss"]
+		},
+		{
+			"id": 7,
+			"image": "/img/sport-betting.jpg",
+			"title": "Sports betting",
+			"link": "https://react-sports-betting.vercel.app",
+			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos pariatur eius est molestiae voluptas, inventore enim tempora cupiditate sint quam vero, incidunt illum maxime quibusdam eveniet sit odio ut officia facilis rem quia possimus. Vel iste fuga molestiae reprehenderit consectetur ratione, accusantium illo ex aliquam dolores debitis doloremque incidunt molestias autem! At eius fugit et hic nisi natus odit, nihil autem aliquid obcaecati impedit, quasi, totam quidem architecto distinctio quisquam veniam? Totam quibusdam veritatis eos veniam consequuntur, molestiae beatae mollitia, molestias quidem odit deserunt dolorem? Odio quis non exercitationem eaque voluptate. Enim, delectus? Minima, deleniti velit quo totam molestiae cum?",
+			"rate": 3.5,
+			"skills": ["React", "Rtk-query", "Redux-toolkit", "Material-Ui", "Scss"]
+		},
+		{
+			"id": 8,
+			"image": "/img/currencies.jpg",
+			"title": "Exchange rates",
+			"link": "https://luminous-concha-70b4db.netlify.app",
+			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos pariatur eius est molestiae voluptas, inventore enim tempora cupiditate sint quam vero, incidunt illum maxime quibusdam eveniet sit odio ut officia facilis rem quia possimus. Vel iste fuga molestiae reprehenderit consectetur ratione, accusantium illo ex aliquam dolores debitis doloremque incidunt molestias autem! At eius fugit et hic nisi natus odit, nihil autem aliquid obcaecati impedit, quasi, totam quidem architecto distinctio quisquam veniam? Totam quibusdam veritatis eos veniam consequuntur, molestiae beatae mollitia, molestias quidem odit deserunt dolorem? Odio quis non exercitationem eaque voluptate. Enim, delectus? Minima, deleniti velit quo totam molestiae cum?",
+			"rate": 3.5,
+			"skills": ["Vue", "Ant design"]
+		},
+		{
+			"id": 9,
+			"image": "/img/vue-todolist.jpg",
+			"title": "Todo list",
+			"link": "https://strong-toffee-3273ab.netlify.app",
+			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos pariatur eius est molestiae voluptas, inventore enim tempora cupiditate sint quam vero, incidunt illum maxime quibusdam eveniet sit odio ut officia facilis rem quia possimus. Vel iste fuga molestiae reprehenderit consectetur ratione, accusantium illo ex aliquam dolores debitis doloremque incidunt molestias autem! At eius fugit et hic nisi natus odit, nihil autem aliquid obcaecati impedit, quasi, totam quidem architecto distinctio quisquam veniam? Totam quibusdam veritatis eos veniam consequuntur, molestiae beatae mollitia, molestias quidem odit deserunt dolorem? Odio quis non exercitationem eaque voluptate. Enim, delectus? Minima, deleniti velit quo totam molestiae cum?",
+			"rate": 3.5,
+			"skills": ["Vue", "Ant design"]
+		}
+	],
+	"layoutsList": [
+		{
+			"id": 1,
+			"image": "/img/hungry-people.jpg",
+			"title": "Hungry people",
+			"link": "https://truserg.github.io/hungry-people/dist",
+			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos pariatur eius est molestiae voluptas, inventore enim tempora cupiditate sint quam vero, incidunt illum maxime quibusdam eveniet sit odio ut officia facilis rem quia possimus. Vel iste fuga molestiae reprehenderit consectetur ratione, accusantium illo ex aliquam dolores debitis doloremque incidunt molestias autem! At eius fugit et hic nisi natus odit, nihil autem aliquid obcaecati impedit, quasi, totam quidem architecto distinctio quisquam veniam? Totam quibusdam veritatis eos veniam consequuntur, molestiae beatae mollitia, molestias quidem odit deserunt dolorem? Odio quis non exercitationem eaque voluptate. Enim, delectus? Minima, deleniti velit quo totam molestiae cum?",
+			"rate": 5,
+			"skills": ["Js", "Pug", "Gulp", "Scss"]
+		},
+		{
+			"id": 2,
+			"image": "/img/t.pass.jpg",
+			"title": "T.pass",
+			"link": "https://truserg.github.io/t.pass/dist",
+			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos pariatur eius est molestiae voluptas, inventore enim tempora cupiditate sint quam vero, incidunt illum maxime quibusdam eveniet sit odio ut officia facilis rem quia possimus. Vel iste fuga molestiae reprehenderit consectetur ratione, accusantium illo ex aliquam dolores debitis doloremque incidunt molestias autem! At eius fugit et hic nisi natus odit, nihil autem aliquid obcaecati impedit, quasi, totam quidem architecto distinctio quisquam veniam? Totam quibusdam veritatis eos veniam consequuntur, molestiae beatae mollitia, molestias quidem odit deserunt dolorem? Odio quis non exercitationem eaque voluptate. Enim, delectus? Minima, deleniti velit quo totam molestiae cum?",
+			"rate": 5,
+			"skills": ["Js", "Pug", "Gulp", "Scss"]
+		},
+		{
+			"id": 3,
+			"image": "/img/brella.jpg",
+			"title": "Brella",
+			"link": "https://truserg.github.io/brella",
+			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos pariatur eius est molestiae voluptas, inventore enim tempora cupiditate sint quam vero, incidunt illum maxime quibusdam eveniet sit odio ut officia facilis rem quia possimus. Vel iste fuga molestiae reprehenderit consectetur ratione, accusantium illo ex aliquam dolores debitis doloremque incidunt molestias autem! At eius fugit et hic nisi natus odit, nihil autem aliquid obcaecati impedit, quasi, totam quidem architecto distinctio quisquam veniam? Totam quibusdam veritatis eos veniam consequuntur, molestiae beatae mollitia, molestias quidem odit deserunt dolorem? Odio quis non exercitationem eaque voluptate. Enim, delectus? Minima, deleniti velit quo totam molestiae cum?",
+			"rate": 5,
+			"skills": ["Js", "Html", "Css"]
+		},
+		{
+			"id": 4,
+			"image": "/img/park.jpg",
+			"title": "Rayal park",
+			"link": "https://truserg.github.io/rayal-park",
+			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos pariatur eius est molestiae voluptas, inventore enim tempora cupiditate sint quam vero, incidunt illum maxime quibusdam eveniet sit odio ut officia facilis rem quia possimus. Vel iste fuga molestiae reprehenderit consectetur ratione, accusantium illo ex aliquam dolores debitis doloremque incidunt molestias autem! At eius fugit et hic nisi natus odit, nihil autem aliquid obcaecati impedit, quasi, totam quidem architecto distinctio quisquam veniam? Totam quibusdam veritatis eos veniam consequuntur, molestiae beatae mollitia, molestias quidem odit deserunt dolorem? Odio quis non exercitationem eaque voluptate. Enim, delectus? Minima, deleniti velit quo totam molestiae cum?",
+			"rate": 5,
+			"skills": ["Js", "Html", "Css"]
+		},
+		{
+			"id": 5,
+			"image": "/img/roofing-academy.jpg",
+			"title": "Roofing academy",
+			"link": "https://truserg.github.io/roofing_academy",
+			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos pariatur eius est molestiae voluptas, inventore enim tempora cupiditate sint quam vero, incidunt illum maxime quibusdam eveniet sit odio ut officia facilis rem quia possimus. Vel iste fuga molestiae reprehenderit consectetur ratione, accusantium illo ex aliquam dolores debitis doloremque incidunt molestias autem! At eius fugit et hic nisi natus odit, nihil autem aliquid obcaecati impedit, quasi, totam quidem architecto distinctio quisquam veniam? Totam quibusdam veritatis eos veniam consequuntur, molestiae beatae mollitia, molestias quidem odit deserunt dolorem? Odio quis non exercitationem eaque voluptate. Enim, delectus? Minima, deleniti velit quo totam molestiae cum?",
+			"rate": 3.5,
+			"skills": ["Js", "Html", "Css"]
+		},
+		{
+			"id": 6,
+			"image": "/img/laboratory.jpg",
+			"title": "Singularity lab",
+			"link": "https://truserg.github.io/singularity-lab",
+			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos pariatur eius est molestiae voluptas, inventore enim tempora cupiditate sint quam vero, incidunt illum maxime quibusdam eveniet sit odio ut officia facilis rem quia possimus. Vel iste fuga molestiae reprehenderit consectetur ratione, accusantium illo ex aliquam dolores debitis doloremque incidunt molestias autem! At eius fugit et hic nisi natus odit, nihil autem aliquid obcaecati impedit, quasi, totam quidem architecto distinctio quisquam veniam? Totam quibusdam veritatis eos veniam consequuntur, molestiae beatae mollitia, molestias quidem odit deserunt dolorem? Odio quis non exercitationem eaque voluptate. Enim, delectus? Minima, deleniti velit quo totam molestiae cum?",
+			"rate": 4,
+			"skills": ["Js", "Html", "Css"]
+		},
+		{
+			"id": 7,
+			"image": "/img/apple-landing.jpg",
+			"title": "Apple",
+			"link": "https://truserg.github.io/methed_apple-landing",
+			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos pariatur eius est molestiae voluptas, inventore enim tempora cupiditate sint quam vero, incidunt illum maxime quibusdam eveniet sit odio ut officia facilis rem quia possimus. Vel iste fuga molestiae reprehenderit consectetur ratione, accusantium illo ex aliquam dolores debitis doloremque incidunt molestias autem! At eius fugit et hic nisi natus odit, nihil autem aliquid obcaecati impedit, quasi, totam quidem architecto distinctio quisquam veniam? Totam quibusdam veritatis eos veniam consequuntur, molestiae beatae mollitia, molestias quidem odit deserunt dolorem? Odio quis non exercitationem eaque voluptate. Enim, delectus? Minima, deleniti velit quo totam molestiae cum?",
+			"rate": 4.5,
+			"skills": ["Js", "Html", "Css"]
+		},
+		{
+			"id": 8,
+			"image": "/img/trucks.jpg",
+			"title": "Trucks",
+			"link": "https://funny-cucurucho-24310c.netlify.app",
+			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos pariatur eius est molestiae voluptas, inventore enim tempora cupiditate sint quam vero, incidunt illum maxime quibusdam eveniet sit odio ut officia facilis rem quia possimus. Vel iste fuga molestiae reprehenderit consectetur ratione, accusantium illo ex aliquam dolores debitis doloremque incidunt molestias autem! At eius fugit et hic nisi natus odit, nihil autem aliquid obcaecati impedit, quasi, totam quidem architecto distinctio quisquam veniam? Totam quibusdam veritatis eos veniam consequuntur, molestiae beatae mollitia, molestias quidem odit deserunt dolorem? Odio quis non exercitationem eaque voluptate. Enim, delectus? Minima, deleniti velit quo totam molestiae cum?",
+			"rate": 5,
+			"skills": ["Js", "Pug", "Gulp", "Scss"]
+		},
+		{
+			"id": 9,
+			"image": "/img/sass.jpg",
+			"title": "Sass landing page",
+			"link": "https://truserg.github.io/saas-landing-page",
+			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos pariatur eius est molestiae voluptas, inventore enim tempora cupiditate sint quam vero, incidunt illum maxime quibusdam eveniet sit odio ut officia facilis rem quia possimus. Vel iste fuga molestiae reprehenderit consectetur ratione, accusantium illo ex aliquam dolores debitis doloremque incidunt molestias autem! At eius fugit et hic nisi natus odit, nihil autem aliquid obcaecati impedit, quasi, totam quidem architecto distinctio quisquam veniam? Totam quibusdam veritatis eos veniam consequuntur, molestiae beatae mollitia, molestias quidem odit deserunt dolorem? Odio quis non exercitationem eaque voluptate. Enim, delectus? Minima, deleniti velit quo totam molestiae cum?",
+			"rate": 3,
+			"skills": ["Js", "Kit", "Scss"]
+		}
+	]
+}
