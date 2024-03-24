@@ -12,11 +12,11 @@
 				font-size: 20px;
 				font-weight: 600;
 				padding: 10px 0 10px 0;
-				color: $blue;
+				color: $grey-blue;
 				transition: color 0.3s ease-in-out;
 
 				&:hover {
-					color: $dark-blue;
+					color: $blue;
 				}
 			}
 		}
@@ -26,7 +26,6 @@
 @media (max-width: 455px) {
 	.header {
 		padding: 30px 30px;
-		margin-bottom: 20px;
 		background-color: #8ed1fc;
 
 		&Menu {

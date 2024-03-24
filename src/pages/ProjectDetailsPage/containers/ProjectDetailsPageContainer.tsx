@@ -7,7 +7,10 @@ const ProjectDetailsPageContainer = () => {
 		state => state.getProjectDetails
 	);
 
-	const { title, image, link, description, rate, skills } = projectDetailsData;
+	const { title, image, link, description, rate, skills, icons } =
+		projectDetailsData;
+
+	console.log(projectDetailsData);
 
 	return (
 		<ProjectDetailsPageLayout
@@ -17,6 +20,7 @@ const ProjectDetailsPageContainer = () => {
 			description={description}
 			rate={rate}
 			skills={skills}
+			icons={icons}
 		/>
 	);
 };

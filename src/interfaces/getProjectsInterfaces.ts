@@ -6,4 +6,5 @@ export interface IProject {
 	rate: number;
 	description?: string;
 	link: string;
+	icons: string[];
 }

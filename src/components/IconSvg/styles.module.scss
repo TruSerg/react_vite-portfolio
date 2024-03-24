@@ -3,3 +3,10 @@
 	height: 40px;
 	fill: $light-blue;
 }
+
+@media (max-width: 445px) {
+	.iconSvg {
+		width: 30px;
+		height: 30px;
+	}
+}

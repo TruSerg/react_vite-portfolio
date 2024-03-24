@@ -1,17 +1,17 @@
 import { FC, ReactNode } from 'react';
 
+import styles from './styles.module.scss';
+
 interface DescriptionComponentProps {
-	className: string;
 	text?: string;
 	children?: ReactNode;
 }
 
 const DescriptionComponent: FC<DescriptionComponentProps> = ({
-	className,
 	text,
 	children,
 }) => {
-	return <p className={className}>{text ?? children}</p>;
+	return <div className={styles.description}>{text ?? children}</div>;
 };
 
 export default DescriptionComponent;

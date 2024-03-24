@@ -1,7 +1,7 @@
 .flex {
 	display: flex;
 	gap: 10px;
-	padding: 20px 0;
+	padding: 10px 0;
 	max-width: 200px;
 	color: $blue;
 	margin-top: auto;
@@ -11,10 +11,27 @@
 	&Link {
 		font-size: 18px;
 		font-weight: 600;
-		text-decoration: underline;
 	}
 
 	&:hover {
 		color: $dark-blue;
+	}
+
+	&Arrow {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 455px) {
+	.flex {
+		padding: 5px 0;
+
+		&Link {
+			font-size: 16px;
+		}
+
+		&Arrow {
+			font-size: 10px;
+		}
 	}
 }

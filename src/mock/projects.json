@@ -5,16 +5,17 @@
 			"image": "/img/dummy-store.jpg",
 			"title": "Online store",
 			"link": "https://dummy-react-redux-typescript-store.vercel.app",
-			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos pariatur eius est molestiae voluptas, inventore enim tempora cupiditate sint quam vero, incidunt illum maxime quibusdam eveniet sit odio ut officia facilis rem quia possimus. Vel iste fuga molestiae reprehenderit consectetur ratione, accusantium illo ex aliquam dolores debitis doloremque incidunt molestias autem! At eius fugit et hic nisi natus odit, nihil autem aliquid obcaecati impedit, quasi, totam quidem architecto distinctio quisquam veniam? Totam quibusdam veritatis eos veniam consequuntur, molestiae beatae mollitia, molestias quidem odit deserunt dolorem? Odio quis non exercitationem eaque voluptate. Enim, delectus? Minima, deleniti velit quo totam molestiae cum?",
+			"description": "This project is online-store. I used Dummy Json API for developing this project. The app is developed via React, Redux, TypeScript, Material-UI, Scss. There are seven pages in the app such as sign up page, user page, products page, products category page, product details page, search products page and cart. This online-store is very quality, useful and beautiful.",
 			"rate": 5,
-			"skills": ["React", "Typescript", "Redux-toolkit", "Material-Ui", "Scss"]
+			"skills": ["React", "Typescript", "Redux-toolkit", "Material-Ui", "Scss"],
+			"icons": ["i-react", "i-ts", "i-redux", "i-material-ui", "i-sass"]
 		},
 		{
 			"id": 2,
 			"image": "/img/google-library.jpg",
 			"title": "Google library",
 			"link": "https://next-typescript-online-library.vercel.app",
-			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos pariatur eius est molestiae voluptas, inventore enim tempora cupiditate sint quam vero, incidunt illum maxime quibusdam eveniet sit odio ut officia facilis rem quia possimus. Vel iste fuga molestiae reprehenderit consectetur ratione, accusantium illo ex aliquam dolores debitis doloremque incidunt molestias autem! At eius fugit et hic nisi natus odit, nihil autem aliquid obcaecati impedit, quasi, totam quidem architecto distinctio quisquam veniam? Totam quibusdam veritatis eos veniam consequuntur, molestiae beatae mollitia, molestias quidem odit deserunt dolorem? Odio quis non exercitationem eaque voluptate. Enim, delectus? Minima, deleniti velit quo totam molestiae cum?",
+			"description": "This project is Google books library. I used Google Books API for creating this library. This app is developed via Next, React, Redux-toolkit, Rtk-query, TypeScript, Material-UI, Scss. There are two pages in this app such as search book page and details book page. This project really useful, quality and beautiful.",
 			"rate": 5,
 			"skills": [
 				"Next",
@@ -23,70 +24,78 @@
 				"Redux-toolkit",
 				"Material-Ui",
 				"Scss"
-			]
+			],
+			"icons": ["i-next", "i-ts", "i-redux", "i-material-ui", "i-sass"]
 		},
 		{
 			"id": 3,
 			"image": "/img/react-weather.jpg",
 			"title": "Open weather",
 			"link": "https://react-redux-weather.vercel.app",
-			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos pariatur eius est molestiae voluptas, inventore enim tempora cupiditate sint quam vero, incidunt illum maxime quibusdam eveniet sit odio ut officia facilis rem quia possimus. Vel iste fuga molestiae reprehenderit consectetur ratione, accusantium illo ex aliquam dolores debitis doloremque incidunt molestias autem! At eius fugit et hic nisi natus odit, nihil autem aliquid obcaecati impedit, quasi, totam quidem architecto distinctio quisquam veniam? Totam quibusdam veritatis eos veniam consequuntur, molestiae beatae mollitia, molestias quidem odit deserunt dolorem? Odio quis non exercitationem eaque voluptate. Enim, delectus? Minima, deleniti velit quo totam molestiae cum?",
+			"description": "This project is weather app. I used Open Weather API for developing this project. This project is designed to check the current weather. The weather app is developed via React, Redux-toolkit, Material-Ui, Scss. There are four pages in this app. This app is very useful, quality and beautiful.",
 			"rate": 4.5,
-			"skills": ["React", "Redux-toolkit", "Material-Ui", "Scss"]
+			"skills": ["React", "Redux-toolkit", "Material-Ui", "Scss"],
+			"icons": ["i-react", "i-redux", "i-material-ui", "i-sass"]
 		},
 		{
 			"id": 4,
 			"image": "/img/github-users.jpg",
 			"title": "Github users",
 			"link": "https://redux-github-users.vercel.app",
-			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos pariatur eius est molestiae voluptas, inventore enim tempora cupiditate sint quam vero, incidunt illum maxime quibusdam eveniet sit odio ut officia facilis rem quia possimus. Vel iste fuga molestiae reprehenderit consectetur ratione, accusantium illo ex aliquam dolores debitis doloremque incidunt molestias autem! At eius fugit et hic nisi natus odit, nihil autem aliquid obcaecati impedit, quasi, totam quidem architecto distinctio quisquam veniam? Totam quibusdam veritatis eos veniam consequuntur, molestiae beatae mollitia, molestias quidem odit deserunt dolorem? Odio quis non exercitationem eaque voluptate. Enim, delectus? Minima, deleniti velit quo totam molestiae cum?",
+			"description": "This app is developed via React, Redux-toolkit, Scss. I used GitHub Api for creating this app. The app is very useful if you need to find a github user and check his code. This app is really useful, quality and beautiful.",
 			"rate": 4.5,
-			"skills": ["React", "Redux-toolkit", "Scss"]
+			"skills": ["React", "Redux-toolkit", "Scss"],
+			"icons": ["i-react", "i-redux", "i-sass"]
 		},
 		{
 			"id": 5,
 			"image": "/img/react-store.jpg",
 			"title": "Online store",
 			"link": "https://react-redux-store-jet.vercel.app",
-			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos pariatur eius est molestiae voluptas, inventore enim tempora cupiditate sint quam vero, incidunt illum maxime quibusdam eveniet sit odio ut officia facilis rem quia possimus. Vel iste fuga molestiae reprehenderit consectetur ratione, accusantium illo ex aliquam dolores debitis doloremque incidunt molestias autem! At eius fugit et hic nisi natus odit, nihil autem aliquid obcaecati impedit, quasi, totam quidem architecto distinctio quisquam veniam? Totam quibusdam veritatis eos veniam consequuntur, molestiae beatae mollitia, molestias quidem odit deserunt dolorem? Odio quis non exercitationem eaque voluptate. Enim, delectus? Minima, deleniti velit quo totam molestiae cum?",
+			"description": "This project is online-store. I used Fake Store API for developing this project. The app is developed via React, Redux-toolkit, TypeScript, Material-UI, Scss. There are four pages in the app such as products page, products category page, product details page and cart. This online-store is very quality, useful and beautiful.",
 			"rate": 4,
-			"skills": ["React", "Redux-toolkit", "Material-Ui", "Scss"]
+			"skills": ["React", "Redux-toolkit", "Material-Ui", "Scss"],
+			"icons": ["i-react", "i-redux", "i-material-ui", "i-sass"]
 		},
 		{
 			"id": 6,
 			"image": "/img/todo-list.jpg",
 			"title": "Todo list",
 			"link": "https://react-redux-typescript-todo-list.vercel.app",
-			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos pariatur eius est molestiae voluptas, inventore enim tempora cupiditate sint quam vero, incidunt illum maxime quibusdam eveniet sit odio ut officia facilis rem quia possimus. Vel iste fuga molestiae reprehenderit consectetur ratione, accusantium illo ex aliquam dolores debitis doloremque incidunt molestias autem! At eius fugit et hic nisi natus odit, nihil autem aliquid obcaecati impedit, quasi, totam quidem architecto distinctio quisquam veniam? Totam quibusdam veritatis eos veniam consequuntur, molestiae beatae mollitia, molestias quidem odit deserunt dolorem? Odio quis non exercitationem eaque voluptate. Enim, delectus? Minima, deleniti velit quo totam molestiae cum?",
+			"description": "This is a todo list. This simple project is designed via React, Typescript, Redux-toolkit, Material-Ui, Scss. You can create, delete, edit task via this app. This Project very useful, quality and beautiful.",
 			"rate": 4.5,
-			"skills": ["React", "Typescript", "Redux-toolkit", "Material-Ui", "Scss"]
+			"skills": ["React", "Typescript", "Redux-toolkit", "Material-Ui", "Scss"],
+			"icons": ["i-react", "i-redux", "i-ts", "i-material-ui", "i-sass"]
 		},
 		{
 			"id": 7,
 			"image": "/img/sport-betting.jpg",
 			"title": "Sports betting",
 			"link": "https://react-sports-betting.vercel.app",
-			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos pariatur eius est molestiae voluptas, inventore enim tempora cupiditate sint quam vero, incidunt illum maxime quibusdam eveniet sit odio ut officia facilis rem quia possimus. Vel iste fuga molestiae reprehenderit consectetur ratione, accusantium illo ex aliquam dolores debitis doloremque incidunt molestias autem! At eius fugit et hic nisi natus odit, nihil autem aliquid obcaecati impedit, quasi, totam quidem architecto distinctio quisquam veniam? Totam quibusdam veritatis eos veniam consequuntur, molestiae beatae mollitia, molestias quidem odit deserunt dolorem? Odio quis non exercitationem eaque voluptate. Enim, delectus? Minima, deleniti velit quo totam molestiae cum?",
+			"description": "This project is Sports betting. This project is designed via React, Typescript, Redux-toolkit, Rtk-query, Material-Ui, Scss. This project quality and beautiful.",
 			"rate": 3.5,
-			"skills": ["React", "Rtk-query", "Redux-toolkit", "Material-Ui", "Scss"]
+			"skills": ["React", "Rtk-query", "Redux-toolkit", "Material-Ui", "Scss"],
+			"icons": ["i-react", "i-redux", "i-material-ui", "i-sass"]
 		},
 		{
 			"id": 8,
 			"image": "/img/currencies.jpg",
 			"title": "Exchange rates",
 			"link": "https://luminous-concha-70b4db.netlify.app",
-			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos pariatur eius est molestiae voluptas, inventore enim tempora cupiditate sint quam vero, incidunt illum maxime quibusdam eveniet sit odio ut officia facilis rem quia possimus. Vel iste fuga molestiae reprehenderit consectetur ratione, accusantium illo ex aliquam dolores debitis doloremque incidunt molestias autem! At eius fugit et hic nisi natus odit, nihil autem aliquid obcaecati impedit, quasi, totam quidem architecto distinctio quisquam veniam? Totam quibusdam veritatis eos veniam consequuntur, molestiae beatae mollitia, molestias quidem odit deserunt dolorem? Odio quis non exercitationem eaque voluptate. Enim, delectus? Minima, deleniti velit quo totam molestiae cum?",
+			"description": "This project is Exchange rates. This simple project is created via Vue, Ant design, Scss. I used Belarusbank API to create this app. You can check fresh rates via this app.",
 			"rate": 3.5,
-			"skills": ["Vue", "Ant design"]
+			"skills": ["Vue", "Ant design"],
+			"icons": ["i-vue", "i-ant-design", "i-sass"]
 		},
 		{
 			"id": 9,
 			"image": "/img/vue-todolist.jpg",
 			"title": "Todo list",
 			"link": "https://strong-toffee-3273ab.netlify.app",
-			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos pariatur eius est molestiae voluptas, inventore enim tempora cupiditate sint quam vero, incidunt illum maxime quibusdam eveniet sit odio ut officia facilis rem quia possimus. Vel iste fuga molestiae reprehenderit consectetur ratione, accusantium illo ex aliquam dolores debitis doloremque incidunt molestias autem! At eius fugit et hic nisi natus odit, nihil autem aliquid obcaecati impedit, quasi, totam quidem architecto distinctio quisquam veniam? Totam quibusdam veritatis eos veniam consequuntur, molestiae beatae mollitia, molestias quidem odit deserunt dolorem? Odio quis non exercitationem eaque voluptate. Enim, delectus? Minima, deleniti velit quo totam molestiae cum?",
+			"description": "This is a todo list. This simple project is designed via Vue, Ant design, Scss. You can create, delete, edit task via this app. This Project very useful, quality and beautiful.",
 			"rate": 3.5,
-			"skills": ["Vue", "Ant design"]
+			"skills": ["Vue", "Ant design"],
+			"icons": ["i-vue", "i-ant-design", "i-sass"]
 		}
 	],
 	"layoutsList": [
@@ -95,81 +104,110 @@
 			"image": "/img/hungry-people.jpg",
 			"title": "Hungry people",
 			"link": "https://truserg.github.io/hungry-people/dist",
-			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos pariatur eius est molestiae voluptas, inventore enim tempora cupiditate sint quam vero, incidunt illum maxime quibusdam eveniet sit odio ut officia facilis rem quia possimus. Vel iste fuga molestiae reprehenderit consectetur ratione, accusantium illo ex aliquam dolores debitis doloremque incidunt molestias autem! At eius fugit et hic nisi natus odit, nihil autem aliquid obcaecati impedit, quasi, totam quidem architecto distinctio quisquam veniam? Totam quibusdam veritatis eos veniam consequuntur, molestiae beatae mollitia, molestias quidem odit deserunt dolorem? Odio quis non exercitationem eaque voluptate. Enim, delectus? Minima, deleniti velit quo totam molestiae cum?",
+			"description": "This is a landing page. This project shows my layout skills. This landing page is created via JavaScript, Pug, Gulp and Scss. This landing page is really quality and beautiful.",
 			"rate": 5,
-			"skills": ["Js", "Pug", "Gulp", "Scss"]
+			"skills": ["Js", "Pug", "Gulp", "Scss"],
+			"icons": ["i-js", "i-pug", "i-gulp", "i-sass"]
 		},
 		{
 			"id": 2,
 			"image": "/img/t.pass.jpg",
 			"title": "T.pass",
 			"link": "https://truserg.github.io/t.pass/dist",
-			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos pariatur eius est molestiae voluptas, inventore enim tempora cupiditate sint quam vero, incidunt illum maxime quibusdam eveniet sit odio ut officia facilis rem quia possimus. Vel iste fuga molestiae reprehenderit consectetur ratione, accusantium illo ex aliquam dolores debitis doloremque incidunt molestias autem! At eius fugit et hic nisi natus odit, nihil autem aliquid obcaecati impedit, quasi, totam quidem architecto distinctio quisquam veniam? Totam quibusdam veritatis eos veniam consequuntur, molestiae beatae mollitia, molestias quidem odit deserunt dolorem? Odio quis non exercitationem eaque voluptate. Enim, delectus? Minima, deleniti velit quo totam molestiae cum?",
+			"description": "This is a landing page. This project shows my layout skills. This landing page is created via JavaScript, Pug, Gulp and Scss. This landing page is really quality and beautiful.",
 			"rate": 5,
-			"skills": ["Js", "Pug", "Gulp", "Scss"]
+			"skills": ["Js", "Pug", "Gulp", "Scss"],
+			"icons": ["i-js", "i-pug", "i-gulp", "i-sass"]
 		},
 		{
 			"id": 3,
 			"image": "/img/brella.jpg",
 			"title": "Brella",
 			"link": "https://truserg.github.io/brella",
-			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos pariatur eius est molestiae voluptas, inventore enim tempora cupiditate sint quam vero, incidunt illum maxime quibusdam eveniet sit odio ut officia facilis rem quia possimus. Vel iste fuga molestiae reprehenderit consectetur ratione, accusantium illo ex aliquam dolores debitis doloremque incidunt molestias autem! At eius fugit et hic nisi natus odit, nihil autem aliquid obcaecati impedit, quasi, totam quidem architecto distinctio quisquam veniam? Totam quibusdam veritatis eos veniam consequuntur, molestiae beatae mollitia, molestias quidem odit deserunt dolorem? Odio quis non exercitationem eaque voluptate. Enim, delectus? Minima, deleniti velit quo totam molestiae cum?",
+			"description": "This is a landing page. This project shows my layout skills. This landing page is created via JavaScript, Html and Css. This landing page is really quality and beautiful.",
 			"rate": 5,
-			"skills": ["Js", "Html", "Css"]
+			"skills": ["Js", "Html", "Css"],
+			"icons": ["i-js", "i-html", "i-css"]
 		},
 		{
 			"id": 4,
 			"image": "/img/park.jpg",
 			"title": "Rayal park",
 			"link": "https://truserg.github.io/rayal-park",
-			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos pariatur eius est molestiae voluptas, inventore enim tempora cupiditate sint quam vero, incidunt illum maxime quibusdam eveniet sit odio ut officia facilis rem quia possimus. Vel iste fuga molestiae reprehenderit consectetur ratione, accusantium illo ex aliquam dolores debitis doloremque incidunt molestias autem! At eius fugit et hic nisi natus odit, nihil autem aliquid obcaecati impedit, quasi, totam quidem architecto distinctio quisquam veniam? Totam quibusdam veritatis eos veniam consequuntur, molestiae beatae mollitia, molestias quidem odit deserunt dolorem? Odio quis non exercitationem eaque voluptate. Enim, delectus? Minima, deleniti velit quo totam molestiae cum?",
+			"description": "This is a landing page. This project shows my layout skills. This landing page is created via JavaScript, Html and Css. This landing page is really quality and beautiful.",
 			"rate": 5,
-			"skills": ["Js", "Html", "Css"]
+			"skills": ["Js", "Html", "Css"],
+			"icons": ["i-js", "i-html", "i-css"]
 		},
 		{
 			"id": 5,
-			"image": "/img/roofing-academy.jpg",
-			"title": "Roofing academy",
-			"link": "https://truserg.github.io/roofing_academy",
-			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos pariatur eius est molestiae voluptas, inventore enim tempora cupiditate sint quam vero, incidunt illum maxime quibusdam eveniet sit odio ut officia facilis rem quia possimus. Vel iste fuga molestiae reprehenderit consectetur ratione, accusantium illo ex aliquam dolores debitis doloremque incidunt molestias autem! At eius fugit et hic nisi natus odit, nihil autem aliquid obcaecati impedit, quasi, totam quidem architecto distinctio quisquam veniam? Totam quibusdam veritatis eos veniam consequuntur, molestiae beatae mollitia, molestias quidem odit deserunt dolorem? Odio quis non exercitationem eaque voluptate. Enim, delectus? Minima, deleniti velit quo totam molestiae cum?",
-			"rate": 3.5,
-			"skills": ["Js", "Html", "Css"]
+			"image": "/img/portfolio.jpg",
+			"title": "Old portfolio",
+			"link": "https://truserg.github.io/portfolio",
+			"description": "This is a landing page portfolio. This is my old portfolio. This project shows my layout skills. This landing page is created via JavaScript, Html and Scss. This landing page is really quality and beautiful.",
+			"rate": 5,
+			"skills": ["Js", "Html", "Css"],
+			"icons": ["i-js", "i-html", "i-css"]
 		},
 		{
 			"id": 6,
-			"image": "/img/laboratory.jpg",
-			"title": "Singularity lab",
-			"link": "https://truserg.github.io/singularity-lab",
-			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos pariatur eius est molestiae voluptas, inventore enim tempora cupiditate sint quam vero, incidunt illum maxime quibusdam eveniet sit odio ut officia facilis rem quia possimus. Vel iste fuga molestiae reprehenderit consectetur ratione, accusantium illo ex aliquam dolores debitis doloremque incidunt molestias autem! At eius fugit et hic nisi natus odit, nihil autem aliquid obcaecati impedit, quasi, totam quidem architecto distinctio quisquam veniam? Totam quibusdam veritatis eos veniam consequuntur, molestiae beatae mollitia, molestias quidem odit deserunt dolorem? Odio quis non exercitationem eaque voluptate. Enim, delectus? Minima, deleniti velit quo totam molestiae cum?",
-			"rate": 4,
-			"skills": ["Js", "Html", "Css"]
+			"image": "/img/cv.jpg",
+			"title": "CV",
+			"link": "https://truserg.github.io/my_cv",
+			"description": "This is a landing page cv. This project shows my layout skills. This landing page is created via JavaScript, Html and Css. This landing page is really quality and beautiful.",
+			"rate": 5,
+			"skills": ["Js", "Html", "Css"],
+			"icons": ["i-js", "i-html", "i-css"]
 		},
 		{
 			"id": 7,
-			"image": "/img/apple-landing.jpg",
-			"title": "Apple",
-			"link": "https://truserg.github.io/methed_apple-landing",
-			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos pariatur eius est molestiae voluptas, inventore enim tempora cupiditate sint quam vero, incidunt illum maxime quibusdam eveniet sit odio ut officia facilis rem quia possimus. Vel iste fuga molestiae reprehenderit consectetur ratione, accusantium illo ex aliquam dolores debitis doloremque incidunt molestias autem! At eius fugit et hic nisi natus odit, nihil autem aliquid obcaecati impedit, quasi, totam quidem architecto distinctio quisquam veniam? Totam quibusdam veritatis eos veniam consequuntur, molestiae beatae mollitia, molestias quidem odit deserunt dolorem? Odio quis non exercitationem eaque voluptate. Enim, delectus? Minima, deleniti velit quo totam molestiae cum?",
-			"rate": 4.5,
-			"skills": ["Js", "Html", "Css"]
+			"image": "/img/roofing-academy.jpg",
+			"title": "Roofing academy",
+			"link": "https://truserg.github.io/roofing_academy",
+			"description": "This is a landing page. This project shows my layout skills. This landing page is created via JavaScript, Html and Css. This landing page is really quality and beautiful.",
+			"rate": 3.5,
+			"skills": ["Js", "Html", "Css"],
+			"icons": ["i-js", "i-html", "i-css"]
 		},
 		{
 			"id": 8,
-			"image": "/img/trucks.jpg",
-			"title": "Trucks",
-			"link": "https://funny-cucurucho-24310c.netlify.app",
-			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos pariatur eius est molestiae voluptas, inventore enim tempora cupiditate sint quam vero, incidunt illum maxime quibusdam eveniet sit odio ut officia facilis rem quia possimus. Vel iste fuga molestiae reprehenderit consectetur ratione, accusantium illo ex aliquam dolores debitis doloremque incidunt molestias autem! At eius fugit et hic nisi natus odit, nihil autem aliquid obcaecati impedit, quasi, totam quidem architecto distinctio quisquam veniam? Totam quibusdam veritatis eos veniam consequuntur, molestiae beatae mollitia, molestias quidem odit deserunt dolorem? Odio quis non exercitationem eaque voluptate. Enim, delectus? Minima, deleniti velit quo totam molestiae cum?",
-			"rate": 5,
-			"skills": ["Js", "Pug", "Gulp", "Scss"]
+			"image": "/img/laboratory.jpg",
+			"title": "Singularity lab",
+			"link": "https://truserg.github.io/singularity-lab",
+			"description": "This is a landing page. This project shows my layout skills. This landing page is created via JavaScript, Html and Css. This landing page is really quality and beautiful.",
+			"rate": 4,
+			"skills": ["Js", "Html", "Css"],
+			"icons": ["i-js", "i-html", "i-css"]
 		},
 		{
 			"id": 9,
+			"image": "/img/apple-landing.jpg",
+			"title": "Apple",
+			"link": "https://truserg.github.io/methed_apple-landing",
+			"description": "This is a landing page. This project shows my layout skills. This landing page is created via JavaScript, Html and Css. This landing page is really quality and beautiful.",
+			"rate": 4.5,
+			"skills": ["Js", "Html", "Css"],
+			"icons": ["i-js", "i-html", "i-css"]
+		},
+		{
+			"id": 10,
+			"image": "/img/trucks.jpg",
+			"title": "Trucks",
+			"link": "https://funny-cucurucho-24310c.netlify.app",
+			"description": "This is a landing page. This project shows my layout skills. This landing page is created via JavaScript, Pug, Gulp and Scss. This landing page is really quality and beautiful.",
+			"rate": 5,
+			"skills": ["Js", "Pug", "Gulp", "Scss"],
+			"icons": ["i-js", "i-pug", "i-gulp", "i-sass"]
+		},
+		{
+			"id": 11,
 			"image": "/img/sass.jpg",
 			"title": "Sass landing page",
 			"link": "https://truserg.github.io/saas-landing-page",
-			"description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos pariatur eius est molestiae voluptas, inventore enim tempora cupiditate sint quam vero, incidunt illum maxime quibusdam eveniet sit odio ut officia facilis rem quia possimus. Vel iste fuga molestiae reprehenderit consectetur ratione, accusantium illo ex aliquam dolores debitis doloremque incidunt molestias autem! At eius fugit et hic nisi natus odit, nihil autem aliquid obcaecati impedit, quasi, totam quidem architecto distinctio quisquam veniam? Totam quibusdam veritatis eos veniam consequuntur, molestiae beatae mollitia, molestias quidem odit deserunt dolorem? Odio quis non exercitationem eaque voluptate. Enim, delectus? Minima, deleniti velit quo totam molestiae cum?",
+			"description": "This landing page is my first steps of studying Front-end development. This project shows my layout skills. This landing page is created via JavaScript, Kit and Scss. This landing page is really quality and beautiful.",
 			"rate": 3,
-			"skills": ["Js", "Kit", "Scss"]
+			"skills": ["Js", "Kit", "Scss"],
+			"icons": ["i-js", "i-html", "i-sass"]
 		}
 	]
 }

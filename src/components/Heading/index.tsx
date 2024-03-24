@@ -1,9 +1,7 @@
 import { FC } from 'react';
 
-import styles from './styles.module.scss';
-
 interface HeadingProps {
-	className?: string;
+	className: string;
 	text: string;
 	tag?: keyof JSX.IntrinsicElements;
 }
@@ -11,7 +9,7 @@ interface HeadingProps {
 const Heading: FC<HeadingProps> = ({ className, text, tag }) => {
 	const Tag = tag ?? 'h1';
 
-	return <Tag className={styles.mainTitle ?? className}>{text}</Tag>;
+	return <Tag className={className}>{text}</Tag>;
 };
 
 export default Heading;

@@ -19,7 +19,7 @@ const CustomLink: FC<CustomLinkProps> = ({ link, text }) => (
 		>
 			{text}
 		</Link>
-		<ArrowRightOutlined />
+		<ArrowRightOutlined className={styles.flexArrow} />
 	</div>
 );
 export default CustomLink;

@@ -2,17 +2,19 @@ import Heading from '../../../../components/Heading';
 import Container from '../../../../components/Container';
 import ImageComponent from '../../../../components/Image';
 import DescriptionComponent from '../../../../components/Description';
+import IconSvg from '../../../../components/IconSvg';
 
 import MyPhoto from '/img/my-photo-white.jpeg';
+import skills from '../../../../mock/skills.json';
 
 import styles from './styles.module.scss';
-import IconSvg from '../../../../components/IconSvg';
 
 const HomePageLayout = () => {
 	return (
 		<main className={styles.main}>
 			<Container>
-				<Heading text={'About me'} />
+				<Heading className={styles.mainTitle} text={'About me'} />
+
 				<div className={styles.mainFlex}>
 					<ImageComponent
 						className={styles.mainFlexImg}
@@ -21,21 +23,43 @@ const HomePageLayout = () => {
 					/>
 
 					<div className={styles.mainFlexBody}>
-						<Heading tag={'h3'} text={'Hello and welcome!!!'} />
+						<Heading
+							className={styles.mainFlexBodyTitle}
+							tag={'h2'}
+							text={'Hello and welcome!!!'}
+						/>
 
-						<DescriptionComponent className={styles.mainFlexBodyDescription}>
-							<p>
+						<div className={styles.mainFlexBodyDescription}>
+							<DescriptionComponent>
 								My name is{' '}
 								<span className={styles.mainFlexBodyDescriptionText}>
 									Sergey
 								</span>{' '}
-								and i'm glad to see you on my portfolio. I'm a beginner
+								and I'm glad to see you on my portfolio. I'm a beginner
 								Front-End Developer. I have been studying Front-end development
-								for over two years. I'm really interested in it. My common
-								framework is React. I don't have a commercial experience, but i
-								have an extensive experience of creating my own projects and now
-								i have the great portfolio which shows my extensive experience.
-								My portfolio is created via{' '}
+								for over two years. I'm really interested in it. I have started
+								with studying{' '}
+								<span className={styles.mainFlexBodyDescriptionText}>Html</span>{' '}
+								and{' '}
+								<span className={styles.mainFlexBodyDescriptionText}>Css</span>{' '}
+								on my own. I reached great results and I realized that I was
+								moving to the right direction. I decided to go on and I got a
+								Front-end development course in IT-Shatle, where I learned{' '}
+								<span className={styles.mainFlexBodyDescriptionText}>
+									Java script
+								</span>{' '}
+								and{' '}
+								<span className={styles.mainFlexBodyDescriptionText}>
+									React
+								</span>
+								. My common framework (library) is{' '}
+								<span className={styles.mainFlexBodyDescriptionText}>
+									React
+								</span>
+								. I don't have a commercial experience, but I have an extensive
+								experience of creating my own projects and now I have the great
+								portfolio, which shows my extensive experience. My portfolio is
+								created via{' '}
 								<span className={styles.mainFlexBodyDescriptionText}>
 									React
 								</span>
@@ -56,63 +80,31 @@ const HomePageLayout = () => {
 									Ant-design
 								</span>
 								,{' '}
-								<span className={styles.mainFlexBodyDescriptionText}>Scss</span>{' '}
+								<span className={styles.mainFlexBodyDescriptionText}>Scss</span>
 								. There are many quality and useful projects there. I would be
 								happy if you check them.
-							</p>
-						</DescriptionComponent>
+							</DescriptionComponent>
+						</div>
 					</div>
 				</div>
 
-				<div className={styles.mainTitle}>
-					<Heading tag={'h3'} text={'My current technical skills:'} />
-				</div>
+				<Heading
+					className={styles.mainSubtitle}
+					tag={'h3'}
+					text={'My current technical skills:'}
+				/>
 
 				<ul className={styles.mainList}>
-					<li className={styles.mainListFlex}>
-						<IconSvg icon={'i-react'} />
-						<Heading text={'React'} tag={'h3'} />
-					</li>
-					<li className={styles.mainListFlex}>
-						<IconSvg icon={'i-next'} />
-						<Heading text={'Next'} tag={'h3'} />
-					</li>
-					<li className={styles.mainListFlex}>
-						<IconSvg icon={'i-redux'} />
-						<Heading text={'Redux'} tag={'h3'} />
-					</li>
-					<li className={styles.mainListFlex}>
-						<IconSvg icon={'i-js'} />
-						<Heading text={'Java script'} tag={'h3'} />
-					</li>
-					<li className={styles.mainListFlex}>
-						<IconSvg icon={'i-ts'} />
-						<Heading text={'Type script'} tag={'h3'} />
-					</li>
-					<li className={styles.mainListFlex}>
-						<IconSvg icon={'i-material-ui'} />
-						<Heading text={'Material Ui'} tag={'h3'} />
-					</li>
-					<li className={styles.mainListFlex}>
-						<IconSvg icon={'i-ant-design'} />
-						<Heading text={'Ant Design'} tag={'h3'} />
-					</li>
-					<li className={styles.mainListFlex}>
-						<IconSvg icon={'i-git'} />
-						<Heading text={'Git'} tag={'h3'} />
-					</li>
-					<li className={styles.mainListFlex}>
-						<IconSvg icon={'i-html'} />
-						<Heading text={'Html'} tag={'h3'} />
-					</li>
-					<li className={styles.mainListFlex}>
-						<IconSvg icon={'i-css'} />
-						<Heading text={'Css'} tag={'h3'} />
-					</li>
-					<li className={styles.mainListFlex}>
-						<IconSvg icon={'i-sass'} />
-						<Heading text={'Scss'} tag={'h3'} />
-					</li>
+					{skills?.map(({ icon, text }) => (
+						<li key={icon} className={styles.mainListFlex}>
+							<IconSvg icon={icon} />
+							<Heading
+								className={styles.mainListFlexTitle}
+								text={text}
+								tag={'h3'}
+							/>
+						</li>
+					))}
 				</ul>
 			</Container>
 		</main>

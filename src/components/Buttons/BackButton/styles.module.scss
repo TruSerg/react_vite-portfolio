@@ -1,14 +1,28 @@
 .button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 30px;
 	transition: all 0.3s ease-in-out;
 
 	&Icon {
 		font-size: 20px;
 		color: $grey-mid;
-    transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
 	}
 
 	&:hover &Icon {
-    
 		color: $blue;
+	}
+}
+
+@media (max-width: 445px) {
+	.button {
+		padding: 5px 10px 5px 10px !important;
+		margin-bottom: 20px;
+
+		&Icon {
+			font-size: 16px;
+		}
 	}
 }

@@ -47,7 +47,7 @@ const ProjectsPageLayout: FC<ProjectsPageLayoutProps> = ({
 	return (
 		<div className={styles.main}>
 			<Container>
-				<Heading text={'Projects'} />
+				<Heading className={styles.mainTitle} text={'Projects'} />
 				{isLoading || isFetching ? (
 					<Loader />
 				) : (
@@ -72,7 +72,7 @@ const ProjectsPageLayout: FC<ProjectsPageLayoutProps> = ({
 									link={link}
 									rate={rate}
 									skills={skills}
-									handleClick={(e) => handleDetailsPage(e, projects, id)}
+									handleClick={e => handleDetailsPage(e, projects, id)}
 								/>
 							))}
 						</div>

@@ -1,0 +1,13 @@
+[
+	{ "icon": "i-react", "text": "React" },
+	{ "icon": "i-next", "text": "Next" },
+	{ "icon": "i-redux", "text": "Redux" },
+	{ "icon": "i-js", "text": "JavaScript" },
+	{ "icon": "i-ts", "text": "TypeScript" },
+	{ "icon": "i-material-ui", "text": "Material-Ui" },
+	{ "icon": "i-ant-design", "text": "Ant Design" },
+	{ "icon": "i-git", "text": "Git" },
+	{ "icon": "i-html", "text": "Html" },
+	{ "icon": "i-css", "text": "Css" },
+	{ "icon": "i-sass", "text": "Scss" }
+]
