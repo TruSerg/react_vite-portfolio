@@ -1,4 +1,4 @@
-import { ChangeEvent, useEffect } from 'react';
+import { MouseEvent, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 import { IProject } from '../../../interfaces/getProjectsInterfaces';
@@ -12,6 +12,7 @@ import { getProjectDetailsData } from '../../../store/getProjectDetailsSlice';
 
 import { useAppDispatch } from '../../../hooks/useStoreHooks';
 import { useSelect } from '../../../hooks';
+import { getRequestErrors } from '../../../utils/getRequestErrors.ts';
 
 import ProjectsPageLayout from '../components/ProjectsPageLayout';
 
@@ -26,7 +27,7 @@ const ProjectsPageContainer = () => {
 		isLoading: isAppsLoading,
 		isFetching: isAppsFetching,
 		isError: isAppsError,
-		error: appsError,
+		error: appsListError,
 	} = useGetProjectsQuery('');
 
 	const [
@@ -36,7 +37,7 @@ const ProjectsPageContainer = () => {
 			isLoading: isProjectsLoading,
 			isFetching: isProjectsFetching,
 			isError: isProjectsError,
-			error: projectsError,
+			error: projectsListError,
 		},
 	] = useLazyChangeProjectsQuery();
 
@@ -45,7 +46,7 @@ const ProjectsPageContainer = () => {
 	}, [fetchChangeProjects, projectsCategoryValue]);
 
 	const handleGoToDetailsPage = (
-		e: ChangeEvent,
+		e: MouseEvent<HTMLButtonElement | HTMLAnchorElement>,
 		arr: IProject[],
 		projectId: number
 	) => {
@@ -59,6 +60,9 @@ const ProjectsPageContainer = () => {
 
 		navigate(ROUTES.PROJECT_DETAILS_PAGE);
 	};
+
+	const appsError = getRequestErrors(appsListError);
+	const projectsError = getRequestErrors(projectsListError);
 
 	return (
 		<ProjectsPageLayout

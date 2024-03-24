@@ -1,10 +1,10 @@
-import { ChangeEvent, FC } from 'react';
+import { FC, MouseEvent } from 'react';
 import { SerializedError } from '@reduxjs/toolkit';
 
 import { IProject } from '../../../../interfaces/getProjectsInterfaces';
 import {
-	IGetProjectsDataErrorObject,
 	IGetProjectsErrorObject,
+	IGetProjectsDataErrorObject,
 } from '../../../../interfaces/getProjectsErrorsInterfaces';
 
 import Container from '../../../../components/Container';
@@ -12,6 +12,7 @@ import Heading from '../../../../components/Heading';
 import ProjectCard from '../../../../components/Card';
 import CustomSelect from '../../../../components/Select';
 import Loader from '../../../../components/Loader';
+import ErrorComponent from '../../../../components/ErrorComponent';
 
 import selectOptionsArray from '../../../../mock/selectOptions.json';
 
@@ -29,7 +30,7 @@ interface ProjectsPageLayoutProps {
 		| undefined;
 	handleProjectsCategoryChange: (value: string) => void;
 	handleDetailsPage: (
-		e: ChangeEvent,
+		e: MouseEvent<HTMLButtonElement | HTMLAnchorElement>,
 		arr: IProject[],
 		projectId: number
 	) => void;
@@ -44,6 +45,8 @@ const ProjectsPageLayout: FC<ProjectsPageLayoutProps> = ({
 	handleProjectsCategoryChange,
 	handleDetailsPage,
 }) => {
+	console.log(projectsError);
+
 	return (
 		<div className={styles.main}>
 			<Container>
@@ -52,30 +55,36 @@ const ProjectsPageLayout: FC<ProjectsPageLayoutProps> = ({
 					<Loader />
 				) : (
 					<>
-						<div className={styles.mainSelectArea}>
-							<span className={styles.mainSelectAreaText}>
-								Choose type of projects:
-							</span>
-							<CustomSelect
-								defaultValue='Apps'
-								selectOptionsList={selectOptionsArray}
-								handleChange={handleProjectsCategoryChange}
-							/>
-						</div>
+						{isError ? (
+							<ErrorComponent error={projectsError} />
+						) : (
+							<>
+								<div className={styles.mainSelectArea}>
+									<span className={styles.mainSelectAreaText}>
+										Choose type of projects:
+									</span>
+									<CustomSelect
+										defaultValue='Apps'
+										selectOptionsList={selectOptionsArray}
+										handleChange={handleProjectsCategoryChange}
+									/>
+								</div>
 
-						<div className={styles.mainGrid}>
-							{projects?.map(({ id, image, title, link, rate, skills }) => (
-								<ProjectCard
-									key={id}
-									image={image}
-									title={title}
-									link={link}
-									rate={rate}
-									skills={skills}
-									handleClick={e => handleDetailsPage(e, projects, id)}
-								/>
-							))}
-						</div>
+								<div className={styles.mainGrid}>
+									{projects?.map(({ id, image, title, link, rate, skills }) => (
+										<ProjectCard
+											key={id}
+											image={image}
+											title={title}
+											link={link}
+											rate={rate}
+											skills={skills}
+											handleClick={e => handleDetailsPage(e, projects, id)}
+										/>
+									))}
+								</div>
+							</>
+						)}
 					</>
 				)}
 			</Container>

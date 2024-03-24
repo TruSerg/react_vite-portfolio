@@ -1,5 +1,5 @@
 .header {
-	padding: 30px 30px;
+	padding: 30px 0;
 	background-color: $header-bg;
 
 	&Menu {
@@ -23,21 +23,30 @@
 	}
 }
 
-@media (max-width: 455px) {
+@media (max-width: 768px) {
 	.header {
-		padding: 30px 30px;
-		background-color: #8ed1fc;
+		padding: 20px 0;
 
 		&Menu {
 			&List {
-				display: flex;
-				justify-content: flex-end;
-				gap: 30px;
+				&Link {
+					font-size: 18px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 455px) {
+	.header {
+		padding: 15px 0;
+
+		&Menu {
+			&List {
+				gap: 20px;
 
 				&Link {
-					font-size: 20px;
-					font-weight: 600;
-					padding: 10px 0 10px 0;
+					font-size: 14px;
 				}
 			}
 		}

@@ -1,4 +1,4 @@
-import { ChangeEvent, FC } from 'react';
+import { FC, MouseEvent } from 'react';
 import { Card, Typography, Button } from 'antd';
 import { Link } from 'react-router-dom';
 const { Title } = Typography;
@@ -14,7 +14,7 @@ interface ProjectCardProps {
 	link: string;
 	rate: number;
 	skills: string[];
-	handleClick: (e: ChangeEvent) => void;
+	handleClick: (e: MouseEvent<HTMLButtonElement | HTMLAnchorElement>) => void;
 }
 
 const ProjectCard: FC<ProjectCardProps> = ({

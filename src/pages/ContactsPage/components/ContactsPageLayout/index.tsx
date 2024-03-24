@@ -31,7 +31,7 @@ const ContactsPageLayout = () => {
 				</div>
 				<ul className={styles.mainList}>
 					{links.map(({ icon, text, link }) => (
-						<li className={styles.mainListItem}>
+						<li key={icon} className={styles.mainListItem}>
 							<IconSvg icon={icon} />
 							<CustomLink link={link} text={text} />
 						</li>
