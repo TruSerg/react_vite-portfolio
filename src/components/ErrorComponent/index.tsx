@@ -1,10 +1,4 @@
 import { FC } from 'react';
-import { SerializedError } from '@reduxjs/toolkit';
-
-import {
-	IGetProjectsDataErrorObject,
-	IGetProjectsErrorObject,
-} from '../../interfaces/getProjectsErrorsInterfaces';
 
 import Heading from '../Heading';
 import ErrorImage from '/img/error.jpg';
@@ -17,11 +11,7 @@ import MyPhoto from '/img/my-photo-white.jpeg';
 import styles from './styles.module.scss';
 
 interface ErrorComponentProps {
-	error:
-		| IGetProjectsErrorObject
-		| IGetProjectsDataErrorObject
-		| SerializedError
-		| undefined;
+	error: string | string[] | undefined;
 }
 
 const ErrorComponent: FC<ErrorComponentProps> = ({ error }) => {

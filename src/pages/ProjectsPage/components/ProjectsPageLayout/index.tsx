@@ -1,11 +1,6 @@
 import { FC, MouseEvent } from 'react';
-import { SerializedError } from '@reduxjs/toolkit';
 
 import { IProject } from '../../../../interfaces/getProjectsInterfaces';
-import {
-	IGetProjectsErrorObject,
-	IGetProjectsDataErrorObject,
-} from '../../../../interfaces/getProjectsErrorsInterfaces';
 
 import Container from '../../../../components/Container';
 import Heading from '../../../../components/Heading';
@@ -23,11 +18,7 @@ interface ProjectsPageLayoutProps {
 	isLoading: boolean;
 	isFetching: boolean;
 	isError: boolean;
-	projectsError:
-		| IGetProjectsErrorObject
-		| IGetProjectsDataErrorObject
-		| SerializedError
-		| undefined;
+	projectsError: string | string[] | undefined;
 	handleProjectsCategoryChange: (value: string) => void;
 	handleDetailsPage: (
 		e: MouseEvent<HTMLButtonElement | HTMLAnchorElement>,
