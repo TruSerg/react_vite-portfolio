@@ -20,7 +20,7 @@ export const projectsApi = createApi({
 		string | FetchArgs,
 		unknown,
 		IGetProjectsErrorObject | IGetProjectsDataErrorObject,
-		object
+		unknown
 	>,
 	endpoints: builder => ({
 		getProjects: builder.query<IProject[], string>({

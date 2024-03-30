@@ -39,7 +39,6 @@ interface ProjectsPageLayoutProps {
 const ProjectsPageLayout: FC<ProjectsPageLayoutProps> = ({
 	projects,
 	isLoading,
-	isFetching,
 	isError,
 	projectsError,
 	handleProjectsCategoryChange,
@@ -51,7 +50,7 @@ const ProjectsPageLayout: FC<ProjectsPageLayoutProps> = ({
 		<div className={styles.main}>
 			<Container>
 				<Heading className={styles.mainTitle} text={'Projects'} />
-				{isLoading || isFetching ? (
+				{isLoading ? (
 					<Loader />
 				) : (
 					<>
