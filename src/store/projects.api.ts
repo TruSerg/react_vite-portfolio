@@ -16,6 +16,11 @@ export const projectsApi = createApi({
 	reducerPath: 'projects/api',
 	baseQuery: fetchBaseQuery({
 		baseUrl: BASE_URI,
+		mode: 'cors',
+		prepareHeaders: headers => {
+			headers.set('Access-Control-Allow-Origin', '*');
+			return headers;
+		},
 	}) as BaseQueryFn<
 		string | FetchArgs,
 		unknown,

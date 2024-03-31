@@ -46,7 +46,7 @@ const HomePageLayout = () => {
 								moving to the right direction. I decided to go on and I got a
 								Front-end development course in IT-Shatle, where I learned{' '}
 								<span className={styles.mainFlexBodyDescriptionText}>
-									Java script
+									JavaScript
 								</span>{' '}
 								and{' '}
 								<span className={styles.mainFlexBodyDescriptionText}>
