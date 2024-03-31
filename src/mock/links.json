@@ -1,35 +1,42 @@
 [
 	{
+		"id": 1,
 		"icon": "i-email",
 		"text": "truhan_1984@mail.ru",
 		"link": "mailto:truhan_1984@mail.ru"
 	},
 	{
+		"id": 2,
 		"icon": "i-phone",
 		"text": "+375(25)935-45-74",
 		"link": "tel:+375259354574"
 	},
 	{
+		"id": 3,
 		"icon": "i-linkedin",
 		"text": "LinkedIn",
 		"link": "https://www.linkedin.com/in/sergey-trukhan-438ba9215"
 	},
 	{
+		"id": 4,
 		"icon": "i-github",
 		"text": "GitHub",
 		"link": "https://github.com/TruSerg"
 	},
 	{
+		"id": 5,
 		"icon": "i-telegram",
 		"text": "Telegram",
 		"link": "https://t.me/truserj"
 	},
 	{
+		"id": 6,
 		"icon": "i-whatsapp",
 		"text": "WhatsApp",
 		"link": "https://wa.me/375259354574"
 	},
 	{
+		"id": 7,
 		"icon": "i-cv",
 		"text": "Download CV",
 		"link": "https://drive.google.com/file/d/1YYc-9-F1UHQ6hQRSpbOjaW5F7A-W1sNh/view?usp=drive_link"

@@ -35,8 +35,6 @@ const ProjectsPageLayout: FC<ProjectsPageLayoutProps> = ({
 	handleProjectsCategoryChange,
 	handleDetailsPage,
 }) => {
-	console.log(projectsError);
-
 	return (
 		<div className={styles.main}>
 			<Container>

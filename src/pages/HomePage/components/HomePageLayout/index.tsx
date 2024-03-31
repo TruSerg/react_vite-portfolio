@@ -95,8 +95,8 @@ const HomePageLayout = () => {
 				/>
 
 				<ul className={styles.mainList}>
-					{skills?.map(({ icon, text }) => (
-						<li key={icon} className={styles.mainListFlex}>
+					{skills?.map(({ id, icon, text }) => (
+						<li key={id} className={styles.mainListFlex}>
 							<IconSvg icon={icon} />
 							<Heading
 								className={styles.mainListFlexTitle}
