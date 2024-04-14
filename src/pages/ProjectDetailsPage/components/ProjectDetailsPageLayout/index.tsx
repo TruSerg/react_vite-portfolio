@@ -12,6 +12,7 @@ import IconSvg from '../../../../components/IconSvg';
 import styles from './styles.module.scss';
 
 interface ProjectDetailsPageLayoutProps {
+	themeMode: string;
 	title: string;
 	image: string;
 	link: string;
@@ -22,6 +23,7 @@ interface ProjectDetailsPageLayoutProps {
 }
 
 const ProjectDetailsPageLayout: FC<ProjectDetailsPageLayoutProps> = ({
+	themeMode,
 	title,
 	image,
 	link,
@@ -40,7 +42,7 @@ const ProjectDetailsPageLayout: FC<ProjectDetailsPageLayoutProps> = ({
 				</div>
 
 				<div className={styles.mainFlex}>
-					<div className={styles.mainFlexLeft}>
+					<div className={`${styles.mainFlexLeft} ${styles[themeMode]}`}>
 						<ImageComponent
 							className={styles.mainFlexLeftImg}
 							src={image}

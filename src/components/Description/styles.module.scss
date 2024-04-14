@@ -2,7 +2,7 @@
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 1.2;
-	color: $primary;
+	color: $text;
 	padding: 20px;
 	border: 1px solid $grey-super-light;
 }
@@ -19,4 +19,9 @@
 		font-size: 14px;
 		padding: 10px;
 	}
+}
+
+.dark {
+	color: $text-dark;
+	border: 1px solid $grey-dark;
 }

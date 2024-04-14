@@ -14,10 +14,11 @@
 		min-height: 200px;
 		display: flex;
 		flex-direction: column;
+		color: $primary;
 
 		&Title {
 			margin-top: 0;
-			color: $primary !important;
+			color: inherit !important;
 		}
 
 		&Rate {
@@ -29,7 +30,7 @@
 			flex-wrap: wrap;
 			column-gap: 10px;
 			margin-bottom: 20px;
-			color: $primary !important;
+			color: inherit !important;
 		}
 
 		&Btn {
@@ -88,4 +89,8 @@
 			}
 		}
 	}
+}
+
+.dark {
+	color: $text-dark;
 }

@@ -1,4 +1,6 @@
-import { FC } from 'react';
+import { FC, useContext } from 'react';
+
+import { ThemeContext } from '../../context/ThemeContext';
 
 import Heading from '../Heading';
 import ErrorImage from '/img/error.jpg';
@@ -6,7 +8,8 @@ import ImageComponent from '../Image';
 import DescriptionComponent from '../Description';
 import CustomLink from '../Link';
 
-import MyPhoto from '/img/my-photo-white.jpeg';
+import MyPhotoLight from '/img/my-photo-white.jpeg';
+import MyPhotoDark from '/img/my-photo-dark.jpeg';
 
 import styles from './styles.module.scss';
 
@@ -15,6 +18,8 @@ interface ErrorComponentProps {
 }
 
 const ErrorComponent: FC<ErrorComponentProps> = ({ error }) => {
+	const { isDarkMode } = useContext(ThemeContext);
+
 	return (
 		<div className={styles.errorWrapper}>
 			<div className={styles.errorWrapperTitle}>
@@ -34,7 +39,7 @@ const ErrorComponent: FC<ErrorComponentProps> = ({ error }) => {
 			<div className={styles.errorWrapperBody}>
 				<ImageComponent
 					className={styles.errorWrapperBodyImg}
-					src={MyPhoto}
+					src={isDarkMode ? MyPhotoDark : MyPhotoLight}
 					alt={'my photo'}
 				/>
 

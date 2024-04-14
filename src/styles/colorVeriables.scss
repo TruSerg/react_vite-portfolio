@@ -1,4 +1,4 @@
-$blue: rgb(65, 88, 208);
+$blue: rgb(66, 98, 255);
 $light-blue: #00bcd4;
 $dark-blue: rgb(3, 3, 124);
 $grey-blue: #37424e;
@@ -6,9 +6,18 @@ $grey-mid: #838383;
 $grey-light: #b7b7b7;
 $grey-dark: #353535;
 $grey-super-light: #e1e1e1;
-$header-bg: #8ed1fc;
+$header-bg-light: #8ed1fc;
+
 $footer-bg: #abb8c3;
 $primary: $grey-blue;
 $image-bg: #f1f1f1;
 $image-shadow: rgba(0, 0, 0, 0.48);
 $error-red: #ed1c24;
+$text: $primary;
+
+// dark mode
+
+$dark-bg: #252526;
+$header-bg-dark: $grey-blue;
+$text-highlight-dark: #a84d98;
+$text-dark: #c7c7c7;

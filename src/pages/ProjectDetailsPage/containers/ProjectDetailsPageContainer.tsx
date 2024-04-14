@@ -1,13 +1,16 @@
-import { useEffect } from 'react';
+import { useContext, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 import { ROUTES } from '../../../routes/routeNames';
+
+import { ThemeContext } from '../../../context/ThemeContext';
 
 import { useAppSelector } from '../../../hooks/useStoreHooks';
 
 import ProjectDetailsPageLayout from '../components/ProjectDetailsPageLayout';
 
 const ProjectDetailsPageContainer = () => {
+	const { themeMode } = useContext(ThemeContext);
 	const navigate = useNavigate();
 
 	const { projectDetailsData } = useAppSelector(
@@ -25,6 +28,7 @@ const ProjectDetailsPageContainer = () => {
 
 	return (
 		<ProjectDetailsPageLayout
+			themeMode={themeMode}
 			title={title}
 			image={image}
 			link={link}

@@ -14,15 +14,17 @@ const CustomSelect: FC<CustomSelectProps> = ({
 	defaultValue,
 	selectOptionsList,
 	handleChange,
-}) => (
-	<Space wrap>
-		<Select
-			className={styles.select}
-			defaultValue={defaultValue}
-			onChange={handleChange}
-			options={selectOptionsList}
-		/>
-	</Space>
-);
+}) => {
+	return (
+		<Space wrap>
+			<Select
+				className={styles.select}
+				defaultValue={defaultValue}
+				onChange={handleChange}
+				options={selectOptionsList}
+			/>
+		</Space>
+	);
+};
 
 export default CustomSelect;

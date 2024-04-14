@@ -1,3 +1,5 @@
+import { FC } from 'react';
+
 import Container from '../../../../components/Container';
 import Heading from '../../../../components/Heading';
 import IconSvg from '../../../../components/IconSvg';
@@ -5,12 +7,17 @@ import CustomLink from '../../../../components/Link';
 import ImageComponent from '../../../../components/Image';
 import DescriptionComponent from '../../../../components/Description';
 
-import MyPhoto from '/img/my-photo-white.jpeg';
+import MyPhotoLight from '/img/my-photo-white.jpeg';
+import MyPhotoDark from '/img/my-photo-dark.jpeg';
 import links from '../../../../mock/links.json';
 
 import styles from './styles.module.scss';
 
-const ContactsPageLayout = () => {
+interface ContactsPageLayoutProps {
+	isDarkMode: boolean;
+}
+
+const ContactsPageLayout: FC<ContactsPageLayoutProps> = ({ isDarkMode }) => {
 	return (
 		<div className={styles.main}>
 			<Container>
@@ -19,7 +26,7 @@ const ContactsPageLayout = () => {
 				<div className={styles.mainTop}>
 					<ImageComponent
 						className={styles.mainTopImg}
-						src={MyPhoto}
+						src={isDarkMode ? MyPhotoDark : MyPhotoLight}
 						alt={'my photo'}
 					/>
 

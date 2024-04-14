@@ -1,19 +1,36 @@
-import { FC } from 'react';
+import { FC, useContext } from 'react';
 import { Link } from 'react-router-dom';
 
 import { ROUTES } from '../../routes/routeNames';
 
+import { ThemeContext } from '../../context/ThemeContext';
+
 import Container from '../Container';
 import IconSvg from '../IconSvg';
+import ButtonDarkModeToggle from '../Buttons/ButtonDarkModeToggle';
 
 import styles from './styles.module.scss';
 
 const Header: FC = () => {
+	const { isDarkMode, themeMode, handleDarkModeChange } =
+		useContext(ThemeContext);
+
+	const logoLightMode = {
+		filter: 'none',
+	};
+
+	const logoDarkMode = {
+		filter: 'sepia(50%)',
+	};
+
 	return (
-		<header className={styles.header}>
+		<header className={`${styles.header} ${styles[themeMode]}`}>
 			<Container>
 				<div className={styles.headerBody}>
-					<IconSvg icon={'i-logo'} />
+					<div className={styles.headerBodyLogo} style={isDarkMode ? logoDarkMode : logoLightMode}>
+						<IconSvg icon={'i-logo'} />
+					</div>
+
 					<nav className={styles.headerBodyMenu}>
 						<ul className={styles.headerBodyMenuList}>
 							<li className={styles.headerBodyMenuListLink}>
@@ -27,6 +44,10 @@ const Header: FC = () => {
 							</li>
 						</ul>
 					</nav>
+
+					<div className={styles.headerBodyBtn}>
+						<ButtonDarkModeToggle handleChange={handleDarkModeChange} />
+					</div>
 				</div>
 			</Container>
 		</header>

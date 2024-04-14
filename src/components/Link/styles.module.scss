@@ -35,3 +35,11 @@
 		}
 	}
 }
+
+.dark {
+	color: $text-highlight-dark;
+
+	&:hover {
+		color: $blue;
+	}
+}
