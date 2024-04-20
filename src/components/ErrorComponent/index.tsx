@@ -3,13 +3,12 @@ import { FC, useContext } from 'react';
 import { ThemeContext } from '../../context/ThemeContext';
 
 import Heading from '../Heading';
-import ErrorImage from '/img/error.jpg';
 import ImageComponent from '../Image';
-import DescriptionComponent from '../Description';
 import CustomLink from '../Link';
+import DialogComponent from '../DialogComponent';
 
-import MyPhotoLight from '/img/my-photo-white.jpeg';
-import MyPhotoDark from '/img/my-photo-dark.jpeg';
+import ErrorImageDark from '/img/error-img.png';
+import ErrorImageLight from '/img/error.jpg';
 
 import styles from './styles.module.scss';
 
@@ -32,23 +31,16 @@ const ErrorComponent: FC<ErrorComponentProps> = ({ error }) => {
 
 			<ImageComponent
 				className={styles.errorWrapperImg}
-				src={ErrorImage}
+				src={isDarkMode ? ErrorImageDark : ErrorImageLight}
 				alt='Error'
 			/>
 
 			<div className={styles.errorWrapperBody}>
-				<ImageComponent
-					className={styles.errorWrapperBodyImg}
-					src={isDarkMode ? MyPhotoDark : MyPhotoLight}
-					alt={'my photo'}
+				<DialogComponent
+					text={"Oh! I can't believe it! You can check my old portfolio."}
 				/>
-
-				<div className={styles.errorWrapperBodyDescription}>
-					<DescriptionComponent
-						text={"Oh! I can't believe it! You can check my old portfolio."}
-					/>
-				</div>
 			</div>
+
 			<CustomLink
 				link={'https://truserg.github.io/portfolio'}
 				text={'Old portfolio'}

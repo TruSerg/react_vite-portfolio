@@ -23,11 +23,16 @@ const Header: FC = () => {
 		filter: 'sepia(50%)',
 	};
 
+	console.log(styles[themeMode]);
+
 	return (
 		<header className={`${styles.header} ${styles[themeMode]}`}>
 			<Container>
 				<div className={styles.headerBody}>
-					<div className={styles.headerBodyLogo} style={isDarkMode ? logoDarkMode : logoLightMode}>
+					<div
+						className={styles.headerBodyLogo}
+						style={isDarkMode ? logoDarkMode : logoLightMode}
+					>
 						<IconSvg icon={'i-logo'} />
 					</div>
 

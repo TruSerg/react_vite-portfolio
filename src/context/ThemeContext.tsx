@@ -1,5 +1,8 @@
 import { FC, ReactNode, createContext, useEffect, useState } from 'react';
 
+import { useLocalStorage } from '../hooks';
+import detectDarkMode from '../utils/detectDarkMode';
+
 interface ThemeContextProps {
 	isDarkMode: boolean;
 	themeMode: string;
@@ -13,15 +16,27 @@ export const ThemeContext = createContext<ThemeContextProps>({
 });
 
 export const ThemeProvider: FC<{ children: ReactNode }> = ({ children }) => {
-	const [themeMode, setThemeMode] = useState('light');
+	const [themeMode, setThemeMode] = useLocalStorage(
+		'themeMode',
+		detectDarkMode()
+	);
 	const [isDarkMode, setIsDarkMode] = useState(false);
 
 	useEffect(() => {
 		themeMode === 'dark' ? setIsDarkMode(true) : setIsDarkMode(false);
 	}, [themeMode, isDarkMode]);
 
+	useEffect(() => {
+		window
+			.matchMedia('(prefers-color-scheme: dark)')
+			.addEventListener('change', event => {
+				const newColorScheme = event.matches ? 'dark' : 'light';
+				setThemeMode(newColorScheme);
+			});
+	}, [setThemeMode]);
+
 	const handleDarkModeChange = () => {
-		setThemeMode(currentValue => {
+		setThemeMode((currentValue: string) => {
 			return currentValue === 'light' ? 'dark' : 'light';
 		});
 	};

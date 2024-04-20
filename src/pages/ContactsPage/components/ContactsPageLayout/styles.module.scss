@@ -9,20 +9,7 @@
 	}
 
 	&Top {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		gap: 20px;
 		margin-bottom: 30px;
-
-		&Img {
-			max-width: 100px;
-			border-radius: 50%;
-		}
-
-		&Description {
-			max-width: 300px;
-		}
 	}
 
 	&List {

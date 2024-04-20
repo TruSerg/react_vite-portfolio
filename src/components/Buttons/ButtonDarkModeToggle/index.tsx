@@ -1,6 +1,8 @@
-import { FC } from 'react';
+import { FC, useContext } from 'react';
 import { SunOutlined, MoonOutlined } from '@ant-design/icons';
 import { Switch, Space } from 'antd';
+
+import { ThemeContext } from '../../../context/ThemeContext';
 
 interface ButtonDarkModeToggleProps {
 	handleChange: () => void;
@@ -8,15 +10,19 @@ interface ButtonDarkModeToggleProps {
 
 const ButtonDarkModeToggle: FC<ButtonDarkModeToggleProps> = ({
 	handleChange,
-}) => (
-	<Space direction='vertical'>
-		<Switch
-			onClick={handleChange}
-			checkedChildren={<SunOutlined />}
-			unCheckedChildren={<MoonOutlined />}
-			defaultChecked
-		/>
-	</Space>
-);
+}) => {
+	const { themeMode } = useContext(ThemeContext);
+
+	return (
+		<Space direction='vertical'>
+			<Switch
+				onClick={handleChange}
+				checkedChildren={<SunOutlined />}
+				unCheckedChildren={<MoonOutlined />}
+				checked={themeMode === 'light' ? true : false}
+			/>
+		</Space>
+	);
+};
 
 export default ButtonDarkModeToggle;
