@@ -3,6 +3,7 @@
 	background-color: $footer-bg;
 	color: $primary;
 	margin-top: auto;
+	transition: all 0.3s ease-in-out;
 
 	&Text {
 		text-align: center;

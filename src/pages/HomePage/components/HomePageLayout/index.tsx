@@ -8,6 +8,7 @@ import IconSvg from '../../../../components/IconSvg';
 
 import MyPhotoLight from '/img/my-photo-white.jpeg';
 import MyPhotoDark from '/img/my-photo-dark.jpeg';
+
 import skills from '../../../../mock/skills.json';
 
 import styles from './styles.module.scss';
@@ -18,13 +19,16 @@ interface HomePageLayoutProps {
 }
 
 const HomePageLayout: FC<HomePageLayoutProps> = ({ isDarkMode, themeMode }) => {
-	const darkThemeColor = {
-		color: '#e1e1e1',
-	};
-
 	const lightThemeColor = {
 		color: '#37424e',
+		transition: 'color 0.3s ease-in-out',
 	};
+
+	const darkThemeColor = {
+		color: '#e1e1e1',
+		transition: 'color 0.3s ease-in-out',
+	};
+
 	return (
 		<main className={styles.main}>
 			<Container>

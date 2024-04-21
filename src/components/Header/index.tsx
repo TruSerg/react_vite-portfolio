@@ -17,24 +17,24 @@ const Header: FC = () => {
 
 	const logoLightMode = {
 		filter: 'none',
+		transition: 'filter 0.3s ease-in-out',
 	};
 
 	const logoDarkMode = {
-		filter: 'sepia(50%)',
+		filter: 'sepia(30%)',
 	};
-
-	console.log(styles[themeMode]);
 
 	return (
 		<header className={`${styles.header} ${styles[themeMode]}`}>
 			<Container>
 				<div className={styles.headerBody}>
-					<div
+					<Link
+						to={ROUTES.HOME_PAGE}
 						className={styles.headerBodyLogo}
 						style={isDarkMode ? logoDarkMode : logoLightMode}
 					>
 						<IconSvg icon={'i-logo'} />
-					</div>
+					</Link>
 
 					<nav className={styles.headerBodyMenu}>
 						<ul className={styles.headerBodyMenuList}>

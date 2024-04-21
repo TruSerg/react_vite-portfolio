@@ -23,6 +23,7 @@
 			min-height: 700px;
 			background-color: $image-bg;
 			width: 40%;
+			transition: background-color 0.3s ease-in-out;
 
 			&Img {
 				min-height: 600px;
