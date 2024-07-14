@@ -1,9 +1,10 @@
 .link {
 	display: flex;
+	width: 100%;
 }
 
 .card {
-	max-width: 100%;
+	width: 100%;
 
 	&Img {
 		min-height: 250px;
@@ -77,6 +78,8 @@
 
 @media (max-width: 455px) {
 	.card {
+		width: 100%;
+
 		&Body {
 			&Title {
 				font-size: 16px !important;
