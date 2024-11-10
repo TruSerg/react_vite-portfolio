@@ -12,10 +12,27 @@
 		},
 		{
 			"id": 2,
+			"image": "/img/search-movies.jpg",
+			"title": "Searching movies app",
+			"link": "https://next-typescript-search-movies.vercel.app",
+			"description": "This project is app for searching movies. I used TMDB API for creating this app. This app is developed via Next, Redux-toolkit, Rtk-query, TypeScript, Mantine, Tailwind. There are four pages in this app such as search movies page, movies page by filters, trending movies page and details movie page. This project really useful, quality and beautiful.",
+			"rate": 5,
+			"skills": [
+				"Next",
+				"Typescript",
+				"Rtk-query",
+				"Redux-toolkit",
+				"Mantine",
+				"Tailwind"
+			],
+			"icons": ["i-next", "i-ts", "i-redux"]
+		},
+		{
+			"id": 3,
 			"image": "/img/google-library.jpg",
 			"title": "Google library",
 			"link": "https://next-typescript-online-library.vercel.app",
-			"description": "This project is Google books library. I used Google Books API for creating this library. This app is developed via Next, React, Redux-toolkit, Rtk-query, TypeScript, Material-UI, Scss. There are two pages in this app such as search book page and details book page. This project really useful, quality and beautiful.",
+			"description": "This project is Google books library. I used Google Books API for creating this library. This app is developed via Next, Redux-toolkit, Rtk-query, TypeScript, Material-UI, Scss. There are two pages in this app such as search book page and details book page. This project really useful, quality and beautiful.",
 			"rate": 5,
 			"skills": [
 				"Next",
@@ -28,7 +45,7 @@
 			"icons": ["i-next", "i-ts", "i-redux", "i-material-ui", "i-sass"]
 		},
 		{
-			"id": 3,
+			"id": 4,
 			"image": "/img/react-weather.jpg",
 			"title": "Open weather",
 			"link": "https://react-redux-weather.vercel.app",
@@ -38,7 +55,7 @@
 			"icons": ["i-react", "i-redux", "i-material-ui", "i-sass"]
 		},
 		{
-			"id": 4,
+			"id": 5,
 			"image": "/img/github-users.jpg",
 			"title": "Github users",
 			"link": "https://redux-github-users.vercel.app",
@@ -48,7 +65,7 @@
 			"icons": ["i-react", "i-redux", "i-sass"]
 		},
 		{
-			"id": 5,
+			"id": 6,
 			"image": "/img/react-store.jpg",
 			"title": "Online store",
 			"link": "https://react-redux-store-jet.vercel.app",
@@ -58,7 +75,7 @@
 			"icons": ["i-react", "i-redux", "i-material-ui", "i-sass"]
 		},
 		{
-			"id": 6,
+			"id": 7,
 			"image": "/img/todo-list.jpg",
 			"title": "Todo list",
 			"link": "https://react-redux-typescript-todo-list.vercel.app",
@@ -68,7 +85,7 @@
 			"icons": ["i-react", "i-redux", "i-ts", "i-material-ui", "i-sass"]
 		},
 		{
-			"id": 7,
+			"id": 8,
 			"image": "/img/sport-betting.jpg",
 			"title": "Sports betting",
 			"link": "https://react-sports-betting.vercel.app",
@@ -78,7 +95,7 @@
 			"icons": ["i-react", "i-redux", "i-material-ui", "i-sass"]
 		},
 		{
-			"id": 8,
+			"id": 9,
 			"image": "/img/currencies.jpg",
 			"title": "Exchange rates",
 			"link": "https://luminous-concha-70b4db.netlify.app",
@@ -88,7 +105,7 @@
 			"icons": ["i-vue", "i-ant-design", "i-sass"]
 		},
 		{
-			"id": 9,
+			"id": 10,
 			"image": "/img/vue-todolist.jpg",
 			"title": "Todo list",
 			"link": "https://strong-toffee-3273ab.netlify.app",
