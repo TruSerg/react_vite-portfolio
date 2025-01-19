@@ -14,11 +14,11 @@
 			"id": 2,
 			"image": "/img/search-movies.jpg",
 			"title": "Searching movies app",
-			"link": "https://next-typescript-search-movies.vercel.app",
+			"link": "https://movies-portal-gules.vercel.app",
 			"description": "This project is app for searching movies. I used TMDB API for creating this app. This app is developed via Next, Redux-toolkit, Rtk-query, TypeScript, Mantine, Tailwind. There are four pages in this app such as search movies page, movies page by filters, trending movies page and details movie page. This project really useful, quality and beautiful.",
 			"rate": 5,
 			"skills": [
-				"Next",
+				"React",
 				"Typescript",
 				"Rtk-query",
 				"Redux-toolkit",
